@@ -1,0 +1,269 @@
+
+h1{
+  text-align: center;
+  font-size:30px;
+}
+
+.topnav {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+	padding-bottom: 0px;
+  background-color: rgb(24, 10, 73);
+  height: 50px; 
+  
+}
+
+/* Links inside the navbar */
+.topnav a {
+  float: left;
+  font-size: 16px;
+  color: rgb(233, 231, 231);
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover {
+  background-color: #3f1c92;
+}
+.topnav a:active{
+  background-color:rgba(232, 231, 240, 0.856);
+}
+/*styling the search button*/
+.search {
+  float: right;
+  padding-bottom: 10px;
+  margin-top: 0%;
+  margin-right: 10px; 
+  border: black;
+  font-size: 17px;
+  height:10px;
+}
+
+
+.footer {
+  height:30px;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  background-color: rgb(24, 10, 73);
+  color: white;
+  text-align: center;
+  padding:5px;
+  margin-bottom: 0%;
+  position:fixed;
+  z-index:100;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:80%;
+  margin-left:10%;
+  height:80%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td{
+  height:0px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h1  {
+	color: rgb(17, 5, 58);
+	font-size: 2em;
+	text-align:center;
+}
+
+/*styling the links*/
+a{
+  color:inherit;
+}
+.admin a{
+  color:rgb(45, 45, 235);
+}
+a:link {
+  color: rgb(233, 224, 228); 
+  background-color: transparent; 
+  text-decoration:none;
+}
+/*how the form layout should look like*/
+form {
+    border: 2px solid #f1f1f1;
+}
+
+ input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(240, 234, 234);
+    box-sizing: border-box;
+    height:40px;
+} 
+
+
+button {
+    background-color: rgb(21, 94, 23);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: 98%;
+}
+
+/*styling the description box*/
+textarea{
+  width:80%;
+}
+/*styling the delete button*/
+.delete input[type = "button"]{
+  background-color: rgb(255, 10, 10);
+}
+.wrap {
+	width:400px;
+  margin: auto;
+	padding:14px;
+	border: 3px solid rgb(17, 5, 58);
+	border-radius: 12px;
+	background-color:none;
+  margin-top: 50px;
+  
+    
+}
+/*As the mouse hovers over the button*/
+button:hover {
+    background-color:rgb(36, 160, 73);
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 4px 0 2px 0;
+}
+
+img.avatar {
+    width: 40%;
+   
+}
+
+.container {
+    padding: 10px;
+    background-color:#f3ebeb;
+}
+
+.container2{
+  padding: 10px;
+  background-color:#f3ebeb;
+  width:70%;
+  margin-left:15%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/*styling the login box*/
+.login {
+  width: 100%;
+  padding: 12px 10px;
+  background-color:rgb(21, 94, 23);
+  }
+
+
+
+ .container1{
+    display: grid;
+    grid-template-rows: 1fr 9fr 5fr;
+    height: 100vh;
+  
+ 
+ }
+
+ .category {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+ 
+ }
+
+ .content {
+    display: grid;
+    grid-template-columns: 2fr 9fr 3fr;
+    background-color: rgb(250, 246, 248);
+    
+    /* background-image: url("img/conent2.jpg"); */
+ }
+ 
+
+#cat{
+    width: 15%;
+    min-width: 150px;
+}
+/*styling the product names inn home page*/
+h3{
+    color: rgb(1, 10, 1);
+}
+/*how the products are to be displayed in the main page*/
+.products {
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(67, 52, 133);
+}
+
+.dropdown-content {
+  display: none;
+  background-color: rgb(24, 10, 73);
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(238, 13, 144, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(231, 236, 231);
+  padding-right: 4px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(67, 52, 133);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav-right {
+  float: left;
+}
